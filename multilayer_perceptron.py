@@ -1,18 +1,5 @@
 # multilayer_perceptron.py: Machine learning implementation of a Multilayer Perceptron classifier from scratch.
-#
-# Submitted by: Akash Bhapkar abhapkar@iu.edu
-#
-# Based on skeleton code by CSCI-B 551 Fall 2021 Course Staff
 
-# Took some help from below references
-# https://towardsdatascience.com/andrew-ngs-machine-learning-course-in-python-neural-networks-e526b41fdcd9
-# https://cup-of-char.com/writing-activation-functions-from-mostly-scratch-in-python/
-
-# For random initialization of weight and biases, referred below articles
-# ref https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78
-# https://medium.com/@glenmeyerowitz/bias-initialization-in-a-neural-network-2e5d26fed0f0
-
-# Also, discussed approach for this part with Anurag Hambir (ahambir) and Roopank Kohli (rookohli)
 
 import numpy as np
 from utils import identity, sigmoid, tanh, relu, softmax, cross_entropy, one_hot_encoding
